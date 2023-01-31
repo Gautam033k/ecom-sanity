@@ -27,7 +27,9 @@ const FooterBanner = ({
         <div className="right">
           <p>{smallText}</p>
           <h3>Sale is Live!</h3>
-          <p>Grab the sale & get exciting offers ,click Below</p>
+          <p className="company-desc ">
+            Grab the sale & get exciting offers ,click Below
+          </p>
           <Link href={`/product/${product}`}>
             <button type="button"> {buttonText}</button>
           </Link>
