@@ -178,16 +178,21 @@
   .content {
     padding: 4rem;
   }
-
+  .search-container {
+    display: none;
+    background-color: red;
+  }
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
+    background-color: red;
   }
 
   .card {
     padding: 1rem 2.5rem;
+    background-color: red;
   }
 
   .card h2 {
