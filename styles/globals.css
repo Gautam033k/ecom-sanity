@@ -767,9 +767,12 @@ span.text-red {
   }
   .hero-banner-container {
     height: 600px;
-    left: 20px;
+    left: 10px;
   }
 
+  .hero-banner-container h1 {
+    display: none;
+  }
   .hero-banner-image {
     width: 80%;
     height: 50%;
@@ -843,8 +846,9 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
+    margin-right: 30px;
   }
   .cart-container {
     width: 415px;
